@@ -14,9 +14,9 @@ To begin using this program, you will need to clone this repository to your loca
 
 # File Explanations
 <br /> ## CONFIG : MIDDLEWARE : isAuthenticated.js <br />
-This file controls what a user is able to see. If they user is authenticated, then they can move ahead. Otherwise, they will be redirected to the login/sign up page. <br /> 
+This file controls what a user is able to see. If they user is authenticated, then they can move ahead. Otherwise, they will be redirected to the login/sign up page. <br /> <br />
 ##CONFIG : config.json <br />
-This configures the system’s connection to the server for the different environments. <br />
+This configures the system’s connection to the server for the different environments. <br /> <br />
 ##CONFIG : passport.js <br />
 This tells passport.js that we want to log into the website with the listed credentials (email and password). <br />
 ## MODELS : index.js 
