@@ -20,12 +20,12 @@ This file controls what a user is able to see. If they user is authenticated, th
 This configures the system’s connection to the server for the different environments. <br /> <br />
 ## CONFIG : passport.js <br />
 This tells passport.js that we want to log into the website with the listed credentials (email and password). <br /> <br />
-## MODELS <br /> <br />
+# MODELS Folder <br /> <br />
 ## MODELS : index.js <br />
 This connects to database and imports user login data. If you were working with other databases for your webpage, here is where you would call them together. <br /> <br />
 ## MODELS : user.js <br />
 This model defines what a user is and what information it should contain and uses "bcrypt" for password hashing making the database more secure. <br /> <br />
-# ROUTES <br /> <br />
+# ROUTES Folder <br /> <br />
 ## ROUTES : api-routes.js <br />
 This file holds the routes for singing up, signing in and getting users specific data to be displayed client side. <br /> <br />
 ## ROUTES : html-routes.js <br />
